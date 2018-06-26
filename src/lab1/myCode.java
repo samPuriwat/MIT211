@@ -13,7 +13,7 @@ public class myCode {
         //group
         System.out.println("MIT211");
         //university
-        System.out.println("RMUTSV");
+
 
 
 
