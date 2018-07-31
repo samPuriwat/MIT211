@@ -20,11 +20,13 @@ public class BMRCal {
         System.out.print("คุณอายุเท่าไร: ");
         a = scanner.nextInt();
         //test condition
-        double BMR;
+        double BMR=0.0;
         if(c.equals("m")){
             BMR = 66 + (13.7 * w) + (5 * h) - (6.8 * a);
-        }else {
+        }else if(c.equals("f")) {
             BMR = 655 + (9.6 * w) + (1.8 * h) - (4.7 * a);
+        }else {
+            System.out.println("กรุณากรอกอักษร m หรือ f .");
         }
 
         //output
