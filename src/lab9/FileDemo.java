@@ -24,7 +24,6 @@ public class FileDemo {
     }//main
 
     private static void readMyFile() {
-
         try {
             FileReader reader = new FileReader("D:\\MIT211\\src\\lab9\\mit.txt");
             int i;
@@ -38,8 +37,6 @@ public class FileDemo {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }//readMyFile
 
     private static void writeMyFile() {
